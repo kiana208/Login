@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+      body {
+        background-image: url(./img/vecteezy_empty-showcase-abstract-pastel-color-background-3d-vector_8079335.jpg);
+        background-repeat: no-repeat;
+      }
+
+      h3,
+      label,
+      span {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      form {
+        text-align: center;
+        margin-top: 10%;
+        background-image: linear-gradient(to right, rgb(254 212 252 / 28%), rgb(179 226 255 / 16%));
+        border-radius: 50%;
+      }
+
+      input {
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+      }
+
+      .inputs {
+        display: flex;
+        justify-content: center;
+      }
+
+      .input1,
+      .input2,
+      .input3,
+      .input4,
+      .input5,
+      .input6,
+      .input7,
+      .input8 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        border-radius: 30px;
+        border: none;
+        background-color: #f4c6f8;
+        height: 30px;
+        width: 80px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+      }
+
+      input {
+        padding-left: 10px;
+      }
+
+      ::placeholder {
+        font-size: 15px;
+      }
+
+      .box1 {
+        margin-right: 30px;
+      }
+
+      .input8 {
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h3>Please complete this form</h3>
+      <div class="inputs">
+        <div class="box1">
+          <div class="input1">
+            <input type="text" name="name" id="" placeholder="Name">
+          </div>
+          <div class="input2">
+            <input type="text" name="name" id="" placeholder="FamilyName">
+          </div>
+          <div class="input3">
+            <input type="number" name="number" id="" placeholder="phoneNumber">
+          </div>
+          <div class="input4">
+            <input type="text" name="Username" id="" placeholder="Username">
+          </div>
+        </div>
+        <div class="box2">
+          <div class="input5">
+            <input type="email" name="email" id="" placeholder="f.doo@aa.com">
+          </div>
+          <div class="input6">
+            <input type="number" name="number" id="" placeholder="Age">
+          </div>
+          <div class="input7">
+            <input type="text" name="" id="" placeholder="Grade">
+          </div>
+          <div class="input8">
+            <label>male</label>
+            <input type="radio" name="Gender" id="" style="margin-right: 25px;">
+            <label>female</label>
+            <input type="radio" name="Gender" id="">
+          </div>
+        </div>
+      </div>
+      <div>
+        <button>
+          <strong>Submit</strong>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
